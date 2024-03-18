@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Inari</title>
     <!-- Inline CSS -->
     <style>
@@ -40,20 +40,23 @@
 <body class="bg d-flex align-items-center justify-content-center" style="min-height: 100vh;">
 
 <!--CONTENT-->
-<div class="container custom-cont">
-    <div class="card border-dark">
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <span style="font-weight: bold;">Notice!</span>
-            <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Not even a chance?" id="popover1"></button>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Please be mine?</h5>
-            <a href="yes.html" class="btn btn-primary">Yes</a>
-            <a href="#" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I'm sorry" id="popover2">No</a>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card border-dark">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span style="font-weight: bold;">Notice!</span>
+                    <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Not even a chance?" id="popover1"></button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Please be mine?</h5>
+                    <a href="yes.html" class="btn btn-primary">Yes</a>
+                    <a href="#" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I'm sorry" id="popover2">No</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 
 <!-- Bootstrap JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-dzXWW3sFwlC2zw9q3nt1wrbzY1j7yAUjz+vu2CYybYiSH9QOpbTPKKOQmgjIZIlg" crossorigin="anonymous"></script>
